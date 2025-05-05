@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 
 from ..services.url import UrlService, get_url_service
 
-router = APIRouter(prefix="/admin", tags=["health"])
+router = APIRouter(prefix="/admin", tags=["admin"])
 
 
 @router.get("/")
